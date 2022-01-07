@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background: #E6E3CA;
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1F1F1F;
+
+
+}
+.container{
+    padding: 146px 214px 0px 214px;
+    gap:75px;
+}
+
+.second-container{
+    margin-top: 75px;
+}
+.third-container{
+    margin-top:96px;
+}
+.fourth-container{
+    margin-top: 91px;
+}
+.icone-img{
+    position:relative;
+}
+img{
+    background: #1291D8;
+    padding:32px 40px;
+    border-radius: 50%;
+    position:fixed;
+    max-width: 100%;
+    bottom:85px;
+    right:85px;
+    cursor:pointer;
+}
+.card-modal{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(17, 145, 216, 0.12);
+    border-radius: 12px;
+    padding: 40px 65px 110px 50px;
+    width:452px;
+    position:absolute;
+    bottom:233px;
+    right:150px;
+}
+.card-modal h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 41px;
+}
+.card-modal h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.card-modal h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: 0em;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.escondido{
+    display:none;
+}
